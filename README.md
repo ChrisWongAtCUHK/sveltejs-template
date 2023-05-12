@@ -105,3 +105,8 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
+# GitHub Pages
+```
+git subtree push --prefix public/ origin gh-pages
+```
