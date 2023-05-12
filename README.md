@@ -108,5 +108,8 @@ surge public my-project.surge.sh
 
 # GitHub Pages
 ```
+git branch -M build
+git add public/build -f
+git commit -m "build"
 git subtree push --prefix public/ origin gh-pages
 ```
